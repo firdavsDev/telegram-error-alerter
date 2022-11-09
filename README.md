@@ -22,4 +22,4 @@ Handle errors &amp; send it Telegram group!
 ```
 ## We could use in except scope as:
         except Exception as e:
-            return tg_alert.custom_alert(text='Message text')
+            return tg_alert.custom_alert(text=e)
