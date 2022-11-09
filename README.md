@@ -14,7 +14,7 @@ Handle errors &amp; send it Telegram group!
 
       method_1: tg_alert.send_message(chat_id=111222333, text='Message text')
       #or
-      method_2: via decorator
+      method_2: as decorator
       @tg_alert
       def some_func_that_can_raise_an_exception():
           raise RuntimeError('this is an exception')
