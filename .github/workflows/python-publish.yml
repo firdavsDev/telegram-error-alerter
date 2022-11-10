@@ -39,4 +39,4 @@ jobs:
       uses: pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29
       with:
         user: firdavsDevs
-        password: ${{ secrets.PYPI_API_TOKEN }}
+        password: pypi-AgEIcHlwaS5vcmcCJGJjNDFhN2JiLWVhNDktNGUxNC1iYmJlLTQxMjAyMjM2OTBiZQACKlszLCIzMjMzNjgyNC0zYzA2LTQzY2ItYjY0MS00OTY1OGRmMmYyYjIiXQAABiAEfkIL_tDiDRugb4s-AHtWI2vGw26LI8OnxBFEXdkkEQ
