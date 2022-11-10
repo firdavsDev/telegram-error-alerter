@@ -1,11 +1,8 @@
 # telegram-error-alerter
+===============================
 Handle errors &amp; send it Telegram group!
+===============================
 
-<br>
-
-## Use
-
-```
       import Alerter
 
       tg_alert = Alerter(bot_token='YOUR_BOT_TOKEN', chat_id='YOUR_CHAT_ID')
@@ -19,7 +16,7 @@ Handle errors &amp; send it Telegram group!
       def some_func_that_can_raise_an_exception():
           raise RuntimeError('this is an exception')
 
-```
-## We could use in except scope as:
+We could use in except scope as:
         except Exception as e:
             return tg_alert.custom_alert(text=e)
+
